@@ -271,3 +271,71 @@ color: rgba(0, 0, 0, 0.795488);
     
     color: rgba(0, 0, 0, 0.795488);
 }
+.name{
+margin: 0;
+padding: 0;
+width: 413px;
+list-style-type: none;
+}
+.name li{
+width: 79px;
+height: 28 px;
+left: 2px;
+top: 0px;
+color:#4A90E2;
+margin: 0 0 0 0;
+padding: 0;
+display: inline-block;
+margin-top: -5px;
+}
+.Netflixtxt{
+    position: absolute;
+    width: 334px;
+    height: 21px;
+    left: 0px;
+    top: -50px;
+    
+    font-family: ProximaNova;
+    font-size: 24px;
+    line-height: 21px;
+    /* identical to box height, or 87% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.795488);
+}
+.Netflix{
+    margin: 0;
+    padding: 0;
+    width: 413px;
+    list-style-type: none;
+}
+.Netflix li{
+    width: 79px;
+    height: 28 px;
+    left: 2px;
+    top: 0px;
+    color:#4A90E2;
+    margin: 0 0 0 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: -5px;
+}
+.wallpapertxt{
+    position: absolute;
+    width: 334px;
+    height: 21px;
+    left: 2px;
+    top: -50px;
+    
+    font-family: ProximaNova;
+    font-size: 24px;
+    line-height: 21px;
+    /* identical to box height, or 87% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.795488);
+}
