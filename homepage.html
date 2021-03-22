@@ -5,17 +5,306 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 
     <title>homepage</title>
 </head>
 <body>
-    <nav class="flex justify-between mx-auto px-20 pt-6 pb-5">
-      <img src="./image/logo.svg" class="max-w-6 max-h-8">
-      <img src="./image/menu.svg" class="max-w-6 max-h-8">
-    </nav>
-    <div class="mx-auto">
-      <img src="./image/background.svg" class="w-full content-center">      
+  <div class="container w-1366px mx-auto">
+    <div class="container w-1200px mx-auto">
+      <nav class="flex justify-between mx-auto px-20 pt-6 pb-5">
+        <img src="./image/logo.svg" class="max-w-6 max-h-8">
+        <img src="./image/menu.svg" class="max-w-6 max-h-8">
+      </nav>
     </div>
     
+    <img src="./image/background.svg" class="mx-auto w-full">
+    <div class="container w-940px mx-auto px-40">
+        <div class="w-full mt-5 flex items-center">
+          <img src="./image/search.svg" class="absolute pl-7">
+          <input type="text" class="py-4 pl-20 bg-gray-100 w-full rounded-xl focus:outline-none" placeholder="Search Article">
+        </div>
+        <div class="pt-20">
+          <p class="text-blue-600 font-sans text-4xl">POPULAR</p>
+        </div>
+        <div class="w-full mx-auto mt-16">
+          <ul class="flex">
+            <li class="w-400/940 mr-4">            
+                <div>
+                  <p class="text-indigo-900 text-6xl">Feugiat sodales at nullam tellus.</p>
+                  <p class="max-w-2xl text-4xl mt-16 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi posuere nibh tempor fringilla porta pellentesque ipsum.</p>
+                  <div class="flex mt-32 justify-between">
+                    <div>
+                      <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                      <p class="text-blue-200 mt-4 text-2xl">May 5, 3 min read</p>
+                    </div>
+                    <div class="flex items-center h-10 mt-3 mr-32">
+                      <img src="./image/bookmarks.svg" class="pr-8 h-full">
+                      <img src="./image/share.svg" class="h-full">
+                    </div>
+                  </div>
+                </div>
+            </li>
+            <li class="w-540/940">
+              <div>
+                <img src="./image/image1.png">        
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full mt-16">
+          <ul class="w-full flex">
+            <li class="w-300/940 mx-4">
+              <img src="./image/image2.png" class="w-full">
+            <p class="text-4xl text-blue-900">Porta proin tellus sed pulvinar odio eu pulvinar.</p>
+            <p class="text-gray-600 text-2xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <div class="flex justify-between mt-2">
+              <div>
+                <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+              </div>
+              <div class="flex">
+                <img src="./image/bookmarks.svg" class="pr-6">
+                <img src="./image/share.svg">
+              </div>            
+            </div>
+            </li>
+            <li class="w-300/940 mx-4">            
+                <img src="./image/image3.png" class="w-full">
+                <p class="text-4xl text-blue-900">Non quam tortor, proin eu egestas scelerisque purus.</p>
+                <p class="text-gray-600 text-2xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <div class="flex justify-between mt-2">
+                  <div>
+                    <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                    <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+                  </div>
+                  <div class="flex">
+                    <img src="./image/bookmarks.svg" class="pr-6">
+                    <img src="./image/share.svg">
+                  </div>
+                </div>      
+            </li>
+            <li class="w-300/940 mx-4">            
+                <img src="./image/image4.png" class="w-full">
+                <p class="text-4xl text-blue-900">Amet amet sed pharetra risus sit eget interdum.</p>
+                <p class="text-gray-600 text-2xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <div class="flex justify-between mt-2">
+                  <div>
+                    <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                    <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+                  </div>
+                  <div class="flex">
+                    <img src="./image/bookmarks.svg" class="pr-6">
+                    <img src="./image/share.svg">
+                  </div>
+                </div>      
+            </li>
+          </ul>              
+        </div>
+        <div>
+          <p class="text-right text-blue-300 mt-32 text-3xl">See All Popular Article</p>
+        </div>
+        <img src="./image/line.svg" class="w-full mt-8">
+        <div class="w-full mt-16">
+          <p class="text-blue-600 font-sans text-4xl">ALL ARTICLE</p>
+          <div class="w-full mx-auto mt-16">
+            <ul class="w-859/940">
+              <li class="mt-10 flex w-full">
+                <img src="./image/image5.png" class="w-300/859">
+                <div class="ml-6">
+                  <p class="text-4xl text-blue-900">Massa eu in laoreet enim augue vulputate nunc.</p>
+                  <p class="mt-4 text-gray-600 text-3xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                  <div class="flex mt-8">
+                    <div>
+                      <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                      <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+                    </div>
+                    <div class="flex ml-40">
+                      <img src="./image/bookmarks.svg" class="pr-6">
+                      <img src="./image/share.svg">
+                    </div>
+                  </div>
+                </div>
+                
+              </li>
+              <li class="mt-10 flex w-full">
+                <img src="./image/image6.png" class="w-300/859">
+                <div class="ml-6">
+                  <p class="text-4xl text-blue-900">Feugiat a euismod arcu feugiat posuere morbi.</p>
+                  <p class="mt-4 text-gray-600 text-3xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                  <div class="flex mt-8">
+                    <div>
+                      <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                      <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+                    </div>
+                    <div class="flex ml-40">
+                      <img src="./image/bookmarks.svg" class="pr-6">
+                      <img src="./image/share.svg">
+                    </div>
+                  </div>
+                </div>
+                
+              </li>
+              <li class="mt-10 flex w-full">
+                <img src="./image/image7.png" class="w-300/859">
+                <div class="ml-6">
+                  <p class="text-4xl text-blue-900">Sociis purus pellentesque faucibus vitae et felis.</p>
+                  <p class="mt-4 text-gray-600 text-3xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                  <div class="flex mt-8">
+                    <div>
+                      <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                      <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+                    </div>
+                    <div class="flex ml-40">
+                      <img src="./image/bookmarks.svg" class="pr-6">
+                      <img src="./image/share.svg">
+                    </div>
+                  </div>
+                </div>
+                
+              </li>
+              <li class="mt-10 flex w-full">
+                <img src="./image/image8.png" class="w-300/859">
+                <div class="ml-6">
+                  <p class="text-4xl text-blue-900">Cursus feugiat mi pellentesque mauris sed eu.</p>
+                  <p class="mt-4 text-gray-600 text-3xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                  <div class="flex mt-8">
+                    <div>
+                      <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                      <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+                    </div>
+                    <div class="flex ml-40">
+                      <img src="./image/bookmarks.svg" class="pr-6">
+                      <img src="./image/share.svg">
+                    </div>
+                  </div>
+                </div>
+                
+              </li>
+              <li class="mt-10 flex w-full">
+                <img src="./image/image9.png" class="w-300/859">
+                <div class="ml-6">
+                  <p class="text-4xl text-blue-900">A morbi arcu curabitur etiam fringilla augue.</p>
+                  <p class="mt-4 text-gray-600 text-3xl mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus quisque magna in nisl nibh bibendum ipsum, elit duis. Donec.</p>
+                  <div class="flex mt-8">
+                    <div>
+                      <p class="text-blue-800 text-2xl">Samatha Leuthex</p>
+                      <p class="text-blue-200 text-2xl">May 5, 3 min read</p>
+                    </div>
+                    <div class="flex ml-40">
+                      <img src="./image/bookmarks.svg" class="pr-6">
+                      <img src="./image/share.svg">
+                    </div>
+                  </div>
+                </div>              
+              </li>
+            </ul>
+            <div class="flex justify-between mt-20 w-full">
+              <div class="flex">
+                <img src="./image/arrow_l.svg" class="h-8">
+                <p class="h-8 text-xl text-blue-600 pl-4 pt-0.5">New Post</p>              
+              </div>
+              <div class="flex">
+                <p class="h-8 text-xl text-blue-600 pr-6 pt-0.5">Old Post</p>
+                <img src="./image/arrow_r.svg" class="h-8">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <footer class="mt-24 container w-1270px">
+        <div class=" bg-indigo-500 rounded-tr-full">
+          <div class="flex justify-between">
+            <div class="mt-12 ml-52 max-w-lg">
+              <p class="text-white text-6xl">Intersted to woek with our team?</p>
+              <p class="text-indigo-300 text-xl mt-12 pb-24">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div>
+              <button class="bg-blue-400 rounded-xl px-16 py-5 mr-60 mt-32 focus:outline-none">
+                <p class="text-white text-xl">Let’s Talk</p>          
+              </button>
+            </div>        
+          </div>
+        </div>
+        <div class="bg-indigo-500">
+          <div class="w-full">
+            <img src="./image/line.svg" class="bg-gray-300 w-full">
+          </div> 
+          <div class="flex ml-52 mt-24">
+            <div>
+              <div class="flex items-center">
+                <img src="./image/logo2.svg">
+                <p class="text-white text-4xl ml-6">Afrianska</p>
+              </div>
+              <div class="mt-6">
+                <ul>
+                  <li class="py-3">
+                    <div class="flex">
+                      <p class="text-white text-2xl">A.</p>
+                      <p class="text-white text-lg ml-4 max-w-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                  </li>
+                  <li class="py-3">
+                    <div class="flex">
+                      <p class="text-white text-2xl">T.</p>
+                      <p class="text-white text-lg ml-4 max-w-xs">+62-812-7313-4321</p>
+                    </div>
+                  </li>
+                  <li class="py-3">
+                    <div class="flex">
+                      <p class="text-white text-2xl">E.</p>
+                      <p class="text-white text-lg ml-4 max-w-xs">hello.afrian@gmail.com</p>
+                    </div>
+                  </li>
+                  <li class="py-16">
+                      <p class="text-gray-300 text-lg">2019 © Afrianska. All rights reserved.</p>
+                  </li>  
+                </ul>              
+              </div>
+            </div>
+            <div class="mt-4 ml-48">
+              <ul>
+                <li>
+                  <p class="text-white text-3xl">About Us</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">About</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">What We Do</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">Project</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">How It Work With Us</p>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-4 ml-48">
+              <ul>
+                <li>
+                  <p class="text-white text-3xl">Follow US</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">Instagram</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">Facebook</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">LinkedIn</p>
+                </li>
+                <li>
+                  <p class="text-gray-300 mt-6">YouTube</p>
+                </li>
+              </ul>
+            </div>
+          </div> 
+        </div>    
+          
+
+      </footer>
+  </div>    
 </body>
 </html>
