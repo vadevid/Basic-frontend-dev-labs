@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pagecdn.io/lib/font-awesome/5.10.0-11/css/all.min.css" integrity="sha256-p9TTWD+813MlLaxMXMbTA7wN/ArzGyW/L7c5+KkjOkM=" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Site</title>
+    
+</head>
+<body>
+<div class="preloader">
+    <div class="preloader__row">
+        <p class="text-4xl text-center">Загрузка страницы …</p>
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+
+  <div class="background mx-auto">
+    <img src="./img/oval.svg" class="oval" alt="1">
+    <p class="text-white text-center pt-16 text-4xl w-3xl txt1">Market sentiments, portfolio, and run<br> the infrastructure of your choice</p>
+    <div class="pl-32 flex justify-between mt-16">
+        <div>
+            <p class="text-3xl text-white txt1">Invest Smart</p>
+            <p class="text-gray-100 mt-6">Get full statistic information about the behaviour of<br> buyers and sellers will help you to make the decision. </p>
+            <button class="mt-8 focus:outline-none"><p class="txt1 text-white py-4 px-8 bg-blue-500 rounded-full">Learn More</p></button>
+        </div>
+        <div class="chart mr-32">
+            <div class="pt-8 mx-8 flex text-xl justify-between">
+                <div class="flex">
+                    <img src="./img/bitcoin.svg" alt="1">
+                <p class="ml-2 text-white">Bitcoin</p>
+                <p class="text-gray-200 text-sm ml-2 mt-1">BTC</p>
+                </div>                
+                <p class="text-blue-300">+125%</p>
+            </div>
+            <p class="text-gray-100 ml-20">0.00080 BTC</p>
+            <img src="./img/graf.svg" class="mx-8" alt="">
+        </div>
+    </div>
+    </div>
+
+  <script>
+    window.onload = function () {
+      document.body.classList.add('loaded_hiding');
+      window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+      }, 500);
+    }
+  </script>
+</body>
+</html>
